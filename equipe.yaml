@@ -1,0 +1,14 @@
+---
+- disciplina: PDS
+  turma: 413
+  periodo: 2022
+  equipe: Bunka Bytes
+  projeto: IFriends
+  blog: https://bunkabytes.blogspot.com
+  youtube: https://www.youtube.com/channel/UCOJVZlclPTqngZQwPS9Fvpg
+  repo: "/A2022-PDS-SEG/Bunka_Bytes/"
+  tags: ['alunos', 'Q/A', 'comunidade', 'mentoria']
+  descr: Comunidade online para alunos do IFSP, fornecendo um espaço
+    de perguntas e respostas e possibilidades
+    de monitorias/mentorias de alunos para alunos.
+---
