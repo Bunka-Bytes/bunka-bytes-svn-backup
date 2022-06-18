@@ -1,0 +1,70 @@
+{
+  "home-banner-title": "Have questions or want to share some knowledge? Browse IFriends!",
+  "home-banner-descricao":"Here you can ask, answer and even participate or mentor on a subject that you think is cool!",
+  "home-perguntas-title": "Latest Questions:",
+  "home-perguntas-not-found": "No questions found",
+  "home-criar-pergunta": "Create your question",
+
+  "label-answers":"Replies",
+  "label-answer":"Reply",
+  "label-your-answer":"Your reply",
+  "label-your-answer-small":"Do you know any answer that can help our Friend in this question? Send here!",
+  "label-days-ago":"days ago",
+  "label-views":"Views",
+  "label-likes":"Likes",
+  "label-answers-thks":"Thanks for the answer :)",
+  "label-remove-view":"Remove from view",
+  "label-report":"Report",
+
+
+  "btn-perguntar":"Ask Question",
+  "btn-responder":"Reply",
+  "btn-ver-eventos":"View Events",
+  "btn-filtros":"Filter",
+
+
+  "btn-logout": "Sign Out",
+  "btn-login": "Sign In",
+  "btn-signup": "Sign Up",
+
+  "input-password": "Password",
+  "input-name": "Name",
+  "input-course": "Course",
+
+  "or-divider": "or",
+
+  "login-label": "Welcome back, Friend!",
+  "login-continue":"Continue without login",
+  "login-email-required": "Please enter your email",
+
+
+  "signup-label": "Sign Up and enter our community!",
+  "signup-tooltip-user-name": "",
+  "signup-tooltip-email": "Enter the email name and choose its domain on the right side.",
+  "signup-tooltip-password": "Enter a strong password, with at least 6-12 characters, upper and lower case letters, special characters and numbers",
+  "sinup-agreement": "I've read and accepted the ",
+
+  "terms-of-use-label": "Terms and conditions of use",
+
+
+  "menu-search-placeholder": "Search for a question",
+  "menu-select-idiom-label": "Language",
+
+  "footer-contact-list-label": "Contact",
+  "footer-contact-link": "Get in touch",
+  "footer-contact-politics-link": "Community policies",
+  "footer-app-map-label": "Our App",
+  "footer-app-map-home": "Home Page",
+
+  "menu-side-questions": "Questions",
+  "menu-side-ajuda": "Help Center",
+
+  "footer-app-map-events": "Events",
+  "footer-app-map-category": "Categories",
+  "footer-app-map-config": "Settings",
+  "footer-app-map-contact": "Contact",
+  "footer-app-map-api": "API",
+
+  "footer-author-rights": "All rights reserved"
+
+}

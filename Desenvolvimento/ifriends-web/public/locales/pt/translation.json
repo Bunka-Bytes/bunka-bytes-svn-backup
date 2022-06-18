@@ -1,0 +1,68 @@
+{
+  "home-banner-title": "Está com dúvidas ou quer compartilhar o que sabe? Navegue pelo IFriends!",
+  "home-banner-descricao":"Aqui você pode ser perguntar, responder e ainda participar ou dar mentorias sobre um assunto que ache legal!",
+  "home-perguntas-title": "Últimas Perguntas:",
+  "home-perguntas-not-found": "Não foram encontradas perguntas",
+  "home-criar-pergunta": "&nbsp;&nbsp; Crie sua pergunta",
+
+  "label-answers":"Respostas",
+  "label-answer":"Resposta",
+  "label-your-answer":"Sua resposta",
+  "label-your-answer-small":"Conhece uma resposta para ajudar nosso amigo nessa dúvida? Mande a sua resposta!",
+  "label-days-ago":"dias atrás",
+  "label-views":"Visualizações",
+  "label-likes":"Curtidas",
+  "label-answers-thks":"Obrigado pela resposta :)",
+  "label-remove-view":"Remover da visualização",
+  "label-report":"Reportar",
+
+
+
+  "btn-perguntar":"Perguntar",
+  "btn-responder":"Responder",
+  "btn-ver-eventos":"Ver Eventos",
+  "btn-filtros":"Filtros",
+
+  "btn-logout": "Sair",
+  "btn-login": "Entrar",
+  "btn-signup": "Cadastrar",
+
+  "input-password": "Senha",
+  "input-name": "Nome",
+  "input-course": "Curso",
+
+  "or-divider": "ou",
+
+  "login-label": "Bem vind@ de volta, Friend!",
+  "login-continue":"Continuar sem login",
+  "login-email-required": "Por favor, insira o email",  
+
+  "signup-label": "Cadastre-se e faça parte da comunidade!",
+  "signup-tooltip-user-name": "Escreva seu nome completo neste campo.",
+  "signup-tooltip-email": "Digite o email e escolha seu domínio ao lado.",
+  "signup-tooltip-password": "Digite uma senha forte, entre 6-12 caracteres com maiúsculas, minusculas, caracteres especiais e números.",
+  "sinup-agreement": "Eu li e concordo com os",
+  
+  "terms-of-use-label": "Termos de uso e condições",
+
+
+  "menu-search-placeholder": "Pesquise por uma pergunta",
+  "menu-select-idiom-label": "Idioma",
+
+  "footer-contact-list-label": "Atendimento",
+  "footer-contact-link": "Entrar em contato",
+  "footer-contact-politics-link": "Políticas da comunidade",
+  "footer-app-map-label": "Mapa da aplicação",
+  "footer-app-map-home": "Página Inicial",
+
+  "menu-side-questions": "Perguntas",
+  "menu-side-ajuda": "Ajuda",
+
+  "footer-app-map-events": "Eventos",
+  "footer-app-map-category": "Categorias",
+  "footer-app-map-config": "Configurações",
+  "footer-app-map-contact": "Contato",
+  "footer-app-map-api": "API",
+
+  "footer-author-rights": "Todos os direitos reservados"
+}

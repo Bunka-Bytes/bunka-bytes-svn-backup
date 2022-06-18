@@ -1,6 +1,7 @@
 import React from 'react';
 // ------- STYLES -----
 // ------- COMPONENTS -----
+import { useParams } from 'react-router-dom';
 // Antd and Bootstrap
 
 
@@ -9,11 +10,12 @@ import React from 'react';
 import Pergunta from './pergunta';
 import Resposta from './resposta';
 
-const DetalhesPergunta = props => {
+const DetalhesPergunta = (props) => {
+	const { id } = useParams();
 	return (
 		<>
-			<Pergunta />
-			<Resposta  />
+			<Pergunta idPergunta={id} {...props} />
+			<Resposta idPergunta={id} {...props} />
 		</>
 	);
 };

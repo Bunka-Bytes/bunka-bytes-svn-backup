@@ -1,74 +1,77 @@
-import React from 'react';
-import { Menu, Layout, Row, Col, Button } from 'antd';
-import { FiSettings, FiHelpCircle } from 'react-icons/fi';
-import {
-	IoHome,
-	IoCalendarClearOutline,
-	IoPricetagsOutline,
-	IoMenu
-} from 'react-icons/io5';
+import React from "react";
+import { useTranslation } from 'react-i18next';
 
-function getItem(label, key, icon, children) {
-	return {
-		key,
-		icon,
-		children,
-		label
-	};
+import { Menu, Layout } from "antd";
+import { FiSettings, FiHelpCircle } from "react-icons/fi";
+import {
+  IoHome,
+  IoCalendarClearOutline,
+  IoPricetagsOutline,
+} from "react-icons/io5";
+import { Link } from "react-router-dom";
+
+function getItem(key, icon, label, children) {
+  return {
+    key,
+    icon,
+    label,
+    children,
+  };
 }
 
+const MenuSide = () => {
+   const { t } = useTranslation();
 
-
-const MenuSide = props => {
-	const { opcao } = props;
-
-	const items = [
+  const items = [
 		getItem(
-			'Perguntas',
 			'1',
-			<IoHome  style={{ fontSize: '1.5rem' }} />
+			<Link to="/">
+				<IoHome className="icon-menu" />
+			</Link>,
+			t('menu-side-questions')
 		),
 		getItem(
-			'Eventos',
 			'2',
-			<IoCalendarClearOutline  style={{ fontSize: '1.5rem' }} />
+			<Link to="/eventos">
+				<IoCalendarClearOutline className="icon-menu" />
+			</Link>,
+			t('footer-app-map-events')
 		),
 		getItem(
-			'Categorias',
 			'3',
-			<IoPricetagsOutline  style={{ fontSize: '1.5rem' }} />
+			<Link to="/categorias">
+				<IoPricetagsOutline className="icon-menu" />
+			</Link>,
+			t('footer-app-map-category')
 		),
 		getItem(
-			'Ajuda',
 			'4',
-			<FiHelpCircle  style={{ fontSize: '1.5rem' }} />
+			<Link to="/ajuda">
+				<FiHelpCircle className="icon-menu" />
+			</Link>,
+			t('menu-side-ajuda')
 		),
 		getItem(
-			'Configurações',
 			'5',
-			<FiSettings  style={{ fontSize: '1.5rem' }} />
+			<Link to="/config">
+				<FiSettings className="icon-menu" />
+			</Link>,
+			t('footer-app-map-config')
 		)
 	];
 
-	return (
-		<Layout.Sider
-			collapsible
-			defaultCollapsed
-			className="layout-background"
-			style={{ width: '4rem !important' }}
-		>
-			<Menu
-				className="layout-background layout-sider"
-				mode="vertical"
-				style={{
-					display: 'grid',
-					alignContent: 'space-around',
-					alignItems: 'middle'
-				}}
-				items={items}
-				onClick={opcao}
-			/>
-		</Layout.Sider>
-	);
+  return (
+    <Layout.Sider
+      collapsible
+      defaultCollapsed
+      className="layout-background layout-sider"
+    >
+      <Menu
+        className="layout-background layout-menu"
+        mode="vertical"
+        items={items}
+      />
+    </Layout.Sider>
+  );
 };
 export default MenuSide;
